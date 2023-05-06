@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Acid Splash",
+    "Tags": [ "Damage", "Acid" ],
+    "Level": 0,
+    "MagicSchool": "Conjuration",
+    "CastingTime": "1 Action",
+    "Duration": "Instantaneous",
+    "Range": "60 ft",
+    "Area": null,
+    "AttackType": "Save",
+    "SaveStat": "Dexterity",
+    "DamageType": "Acid",
+    "Ritual": false,
+    "Concentration": false,
+    "Verbal": true,
+    "Somatic": true,
+    "Material": false,
+    "Components": null,
+    "Description": ""
+  }
+]

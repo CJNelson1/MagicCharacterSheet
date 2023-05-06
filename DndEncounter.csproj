@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Gear\ArmorList.json" />
+    <None Remove="Gear\WeaponsList.json" />
+    <None Remove="Magic\SpellList.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="GraphicalAssets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Gear\ArmorList.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Gear\WeaponsList.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Magic\SpellList.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
